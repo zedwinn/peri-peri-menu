@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Server files (not needed for GitHub Pages)
+serve.py
+convert_to_mp4.py
+crop_logo.py
+test-video.html
+
+# System files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Temporary files
+/tmp/
+*.tmp
+
+# Large original files (keep only optimized versions)
+images/*.png
+!images/logo_updated.png
+!images/chilli.png
+
+# Keep only small optimized images
+images/*_temp.jpg
+images/First_page_background.jpg
+images/Main_Flames.jpg
+images/Peri_Peri_Combos.jpg
+images/Sides_menu_background.jpg
+images/Flovour_station.jpg
+images/Drinks_menu_background.jpg
+
+# Video files (too large for git)
+*.mov
+*.MOV

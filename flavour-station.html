@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavour Station - Peri Peri Grill</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Truculenta:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body class="category-page-grid">
+    <header class="grid-header">
+        <a href="menu.html" class="back-btn-grid">←</a>
+        <h1 class="grid-title">FLAVOUR STATION</h1>
+        <div class="spacer"></div>
+    </header>
+
+    <main class="video-grid">
+        <div class="grid-item" data-dish-name="Mild Peri" data-price="$150" data-description="Gentle heat with full peri peri flavor." data-video="videos/sauce-1.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <div class="grid-item" data-dish-name="Classic Peri (Medium)" data-price="$150" data-description="Our signature medium heat sauce." data-video="videos/sauce-2.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <div class="grid-item" data-dish-name="Scotch X Peri" data-price="$150" data-description="Fiery scotch bonnet meets peri peri." data-video="videos/sauce-3.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <div class="grid-item" data-dish-name="Peri Ranch" data-price="$150" data-description="Creamy ranch with a peri peri kick." data-video="videos/sauce-4.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <div class="grid-item" data-dish-name="Peri Mayo" data-price="$150" data-description="Smooth mayo with peri peri spice." data-video="videos/sauce-5.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <div class="grid-item" data-dish-name="Chili Jam" data-price="$150" data-description="Sweet and spicy pepper jelly." data-video="videos/sauce-6.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+    </main>
+
+    <div id="videoModal" class="video-modal-fullscreen">
+        <div class="modal-video-container">
+            <button class="modal-close-fullscreen">&times;</button>
+            <video id="modalVideo" playsinline loop>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-info-overlay">
+                <h2 id="modalDishName"></h2>
+                <p id="modalPrice"></p>
+                <p id="modalDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sides - Peri Peri Grill</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Truculenta:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body class="category-page-grid">
+    <header class="grid-header">
+        <a href="menu.html" class="back-btn-grid">←</a>
+        <h1 class="grid-title">SIDES</h1>
+        <div class="spacer"></div>
+    </header>
+
+    <main class="video-grid">
+        <!-- REPLACE: videos/sides-1.mp4 with your actual video file -->
+        <div class="grid-item" data-dish-name="Peri Peri Fries" data-price="$550" data-description="Crispy fries tossed with our signature peri peri seasoning." data-video="videos/sides-1.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <!-- REPLACE: videos/sides-2.mp4 with your actual video file -->
+        <div class="grid-item" data-dish-name="Garlic Bread" data-price="$400" data-description="Warm, toasted bread with garlic butter." data-video="videos/sides-2.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <!-- REPLACE: videos/sides-3.mp4 with your actual video file -->
+        <div class="grid-item" data-dish-name="Spiced Portuguese Rice" data-price="$550" data-description="Fragrant rice with authentic Portuguese spices." data-video="videos/sides-3.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <!-- REPLACE: videos/sides-4.mp4 with your actual video file -->
+        <div class="grid-item" data-dish-name="Flame Grilled Corn" data-price="$550" data-description="Sweet corn charred to perfection on the grill." data-video="videos/sides-4.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <!-- REPLACE: videos/sides-5.mp4 with your actual video file -->
+        <div class="grid-item" data-dish-name="Mozzarella Sticks" data-price="$600" data-description="Golden fried mozzarella with marinara dip." data-video="videos/sides-5.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <!-- REPLACE: videos/sides-6.mp4 with your actual video file -->
+        <div class="grid-item" data-dish-name="Peri Peri Breadfruit" data-price="$600" data-description="Crispy breadfruit seasoned with peri peri spices." data-video="videos/sides-6.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+    </main>
+
+    <div id="videoModal" class="video-modal-fullscreen">
+        <div class="modal-video-container">
+            <button class="modal-close-fullscreen">&times;</button>
+            <video id="modalVideo" playsinline loop>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-info-overlay">
+                <h2 id="modalDishName"></h2>
+                <p id="modalPrice"></p>
+                <p id="modalDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/menu.js"></script>
+</body>
+</html>

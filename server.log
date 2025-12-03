@@ -1,0 +1,1061 @@
+127.0.0.1 - - [02/Dec/2025 10:25:18] "HEAD /index.html HTTP/1.1" 200 -
+10.111.63.239 - - [02/Dec/2025 10:37:26] "GET /index.html HTTP/1.1" 304 -
+10.111.63.239 - - [02/Dec/2025 10:37:26] "GET /styles/main.css HTTP/1.1" 304 -
+10.111.63.239 - - [02/Dec/2025 10:37:26] "GET /images/First_page_background.png HTTP/1.1" 304 -
+10.111.63.239 - - [02/Dec/2025 10:37:28] "GET /menu.html HTTP/1.1" 304 -
+10.111.63.239 - - [02/Dec/2025 10:37:29] "GET /images/Sides_menu_background.png HTTP/1.1" 304 -
+10.111.63.239 - - [02/Dec/2025 10:37:29] "GET /images/Drinks_menu_background.png HTTP/1.1" 304 -
+10.111.63.239 - - [02/Dec/2025 10:47:02] "GET /index.html HTTP/1.1" 304 -
+10.111.63.239 - - [02/Dec/2025 10:50:10] "GET /styles/main.css HTTP/1.1" 200 -
+10.111.63.239 - - [02/Dec/2025 10:50:10] "GET /images/First_page_background.png HTTP/1.1" 304 -
+10.111.63.239 - - [02/Dec/2025 10:50:14] "GET /menu.html HTTP/1.1" 200 -
+10.111.63.239 - - [02/Dec/2025 10:50:14] "GET /images/Main_Flames.png HTTP/1.1" 200 -
+10.111.63.239 - - [02/Dec/2025 10:50:14] "GET /images/Peri_Peri_Combos.png HTTP/1.1" 200 -
+10.111.63.239 - - [02/Dec/2025 10:50:14] "GET /images/Drinks_menu_background.png HTTP/1.1" 304 -
+10.111.63.239 - - [02/Dec/2025 10:50:14] "GET /images/Sides_menu_background.png HTTP/1.1" 304 -
+10.111.63.239 - - [02/Dec/2025 10:50:32] "GET /main-flames.html HTTP/1.1" 200 -
+10.111.63.239 - - [02/Dec/2025 10:50:32] "GET /styles/main.css HTTP/1.1" 304 -
+10.111.63.239 - - [02/Dec/2025 10:50:34] "GET /menu.html HTTP/1.1" 304 -
+10.111.63.239 - - [02/Dec/2025 10:57:17] "GET /index.html HTTP/1.1" 304 -
+10.111.63.239 - - [02/Dec/2025 10:57:17] "GET /styles/main.css HTTP/1.1" 200 -
+10.111.63.239 - - [02/Dec/2025 10:57:21] "GET /menu.html HTTP/1.1" 200 -
+10.111.63.239 - - [02/Dec/2025 10:57:21] "GET /images/Main_Flames.png HTTP/1.1" 304 -
+10.111.63.239 - - [02/Dec/2025 10:57:21] "GET /images/Flovour_station.png HTTP/1.1" 200 -
+10.111.63.239 - - [02/Dec/2025 10:57:21] "GET /images/Peri_Peri_Combos.png HTTP/1.1" 304 -
+10.111.63.239 - - [02/Dec/2025 10:57:26] "GET /styles/main.css HTTP/1.1" 304 -
+10.111.142.219 - - [02/Dec/2025 11:12:05] "GET /index.html HTTP/1.1" 200 -
+10.111.142.219 - - [02/Dec/2025 11:12:05] "GET /styles/main.css HTTP/1.1" 200 -
+10.111.142.219 - - [02/Dec/2025 11:12:05] "GET /images/First_page_background.png HTTP/1.1" 200 -
+10.111.142.219 - - [02/Dec/2025 11:12:05] code 404, message File not found
+10.111.142.219 - - [02/Dec/2025 11:12:05] "GET /favicon.ico HTTP/1.1" 404 -
+10.111.142.219 - - [02/Dec/2025 11:12:07] "GET /menu.html HTTP/1.1" 200 -
+10.111.142.219 - - [02/Dec/2025 11:12:07] "GET /images/Main_Flames.png HTTP/1.1" 200 -
+10.111.142.219 - - [02/Dec/2025 11:12:07] "GET /images/Peri_Peri_Combos.png HTTP/1.1" 200 -
+10.111.142.219 - - [02/Dec/2025 11:12:07] "GET /images/Sides_menu_background.png HTTP/1.1" 200 -
+10.111.142.219 - - [02/Dec/2025 11:12:07] "GET /images/Flovour_station.png HTTP/1.1" 200 -
+10.111.142.219 - - [02/Dec/2025 11:12:07] "GET /images/Drinks_menu_background.png HTTP/1.1" 200 -
+10.111.106.207 - - [02/Dec/2025 11:13:53] "GET /index.html HTTP/1.1" 200 -
+10.111.106.207 - - [02/Dec/2025 11:13:53] "GET /styles/main.css HTTP/1.1" 200 -
+10.111.106.207 - - [02/Dec/2025 11:13:54] "GET /images/First_page_background.png HTTP/1.1" 200 -
+10.111.106.207 - - [02/Dec/2025 11:13:54] code 404, message File not found
+10.111.106.207 - - [02/Dec/2025 11:13:54] "GET /favicon.ico HTTP/1.1" 404 -
+10.111.106.207 - - [02/Dec/2025 11:13:59] "GET /menu.html HTTP/1.1" 200 -
+10.111.106.207 - - [02/Dec/2025 11:13:59] "GET /styles/main.css HTTP/1.1" 304 -
+10.111.106.207 - - [02/Dec/2025 11:14:00] "GET /images/Main_Flames.png HTTP/1.1" 200 -
+10.111.106.207 - - [02/Dec/2025 11:14:00] "GET /images/Peri_Peri_Combos.png HTTP/1.1" 200 -
+10.111.106.207 - - [02/Dec/2025 11:14:00] "GET /images/Sides_menu_background.png HTTP/1.1" 200 -
+10.111.106.207 - - [02/Dec/2025 11:14:01] "GET /images/Drinks_menu_background.png HTTP/1.1" 200 -
+10.111.106.207 - - [02/Dec/2025 11:14:01] "GET /images/Flovour_station.png HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 13:22:59] "GET /index.html HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 13:22:59] "GET /styles/main.css HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 13:22:59] "GET /images/First_page_background.png HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 13:22:59] code 404, message File not found
+10.115.142.138 - - [02/Dec/2025 13:22:59] "GET /favicon.ico HTTP/1.1" 404 -
+10.115.142.138 - - [02/Dec/2025 13:23:00] "GET /menu.html HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 13:23:00] "GET /images/Main_Flames.png HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 13:23:00] "GET /images/Peri_Peri_Combos.png HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 13:23:00] "GET /images/Flovour_station.png HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 13:23:00] "GET /images/Sides_menu_background.png HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 13:23:00] "GET /images/Drinks_menu_background.png HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 13:23:03] "GET /main-flames.html HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 13:23:03] "GET /scripts/menu.js HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:23:29] "GET /index.html HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:23:29] "GET /styles/main.css HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:23:29] "GET /images/First_page_background.png HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:23:29] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 13:23:29] "GET /favicon.ico HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 13:26:10] "GET /index.html HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:26:14] "GET /menu.html HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:26:14] "GET /images/Main_Flames.png HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:26:14] "GET /images/Peri_Peri_Combos.png HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:26:14] "GET /images/Sides_menu_background.png HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:26:15] "GET /images/Drinks_menu_background.png HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:26:16] "GET /images/Flovour_station.png HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:26:41] "GET /main-flames.html HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:26:41] "GET /scripts/menu.js HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:26:45] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 13:26:45] "GET /videos/main-flames-1.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 13:26:47] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 13:26:47] "GET /videos/main-flames-2.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 13:26:50] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 13:26:50] "GET /videos/main-flames-3.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 13:26:52] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 13:26:52] "GET /videos/main-flames-4.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 13:26:54] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 13:26:54] "GET /videos/main-flames-5.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 13:34:15] "GET /index.html HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:34:38] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 13:34:38] "GET /videos/main-flames-1.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 13:34:41] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 13:34:41] "GET /videos/main-flames-2.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 13:34:45] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 13:34:45] "GET /videos/main-flames-3.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 13:34:48] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 13:34:48] "GET /videos/main-flames-4.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 13:34:50] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 13:34:50] "GET /videos/main-flames-5.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 13:34:52] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 13:34:52] "GET /videos/main-flames-6.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 13:34:53] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 13:34:53] "GET /videos/main-flames-7.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 13:34:54] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 13:34:54] "GET /videos/main-flames-8.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 13:34:55] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 13:34:55] "GET /videos/main-flames-9.mp4 HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('10.115.105.255', 58269)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+10.115.105.255 - - [02/Dec/2025 13:37:11] "GET /styles/main.css HTTP/1.1" 304 -
+----------------------------------------
+Exception occurred during processing of request from ('10.115.105.255', 58322)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+10.115.105.255 - - [02/Dec/2025 13:43:19] "GET /index.html HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:43:19] "GET /images/logo_1758640761.png HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:43:19] "GET /images/chilli.png HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:43:29] "GET /menu.html HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:43:29] "GET /images/Peri_Peri_Combos.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 13:43:29] "GET /images/Main_Flames.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 13:43:29] "GET /images/Flovour_station.png HTTP/1.1" 304 -
+----------------------------------------
+Exception occurred during processing of request from ('10.115.105.255', 58349)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+10.115.105.255 - - [02/Dec/2025 13:51:10] "GET /index.html HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:51:10] "GET /images/logo_circle.png HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:51:12] "GET /index.html HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:51:21] "GET /menu.html HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 13:51:33] "GET /index.html HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 13:51:33] "GET /images/logo_circle.png HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 13:51:33] "GET /styles/main.css HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 13:51:36] "GET /menu.html HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 13:51:36] "GET /images/Main_Flames.png HTTP/1.1" 304 -
+10.115.142.138 - - [02/Dec/2025 13:51:36] "GET /images/Peri_Peri_Combos.png HTTP/1.1" 304 -
+10.115.142.138 - - [02/Dec/2025 13:51:36] "GET /images/Flovour_station.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 13:53:34] "GET /index.html HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 13:53:34] "GET /styles/main.css HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:53:34] "GET /images/First_page_background.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 13:53:34] "GET /styles/main.css HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:53:34] "GET /images/logo_circle.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 13:53:34] "GET /images/First_page_background.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 13:53:42] "GET /menu.html HTTP/1.1" 304 -
+----------------------------------------
+Exception occurred during processing of request from ('10.115.105.255', 58462)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+10.115.105.255 - - [02/Dec/2025 13:55:29] "GET /index.html HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:55:29] "GET /styles/main.css HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 13:55:34] "GET /menu.html HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('10.115.105.255', 58496)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+10.115.105.255 - - [02/Dec/2025 13:57:06] "GET /index.html HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 13:57:06] "GET /styles/main.css HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:05:08] "GET /index.html HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 14:05:08] "GET /images/logo_updated.png HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 14:05:08] "GET /styles/main.css HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 14:06:25] "GET /menu.html HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:06:25] "GET /images/Sides_menu_background.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:06:25] "GET /images/Drinks_menu_background.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:06:25] "GET /images/Peri_Peri_Combos.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:06:25] "GET /images/Main_Flames.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:06:25] "GET /images/Flovour_station.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:06:25] "GET /styles/main.css HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:07:33] "GET /index.html HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:07:34] "GET /styles/main.css HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:07:34] "GET /images/logo_updated.png HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 14:15:36] "GET /index.html HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 14:15:36] "GET /images/logo_updated.png HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 14:15:36] "GET /styles/main.css HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:16:00] "GET /menu.html HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:16:07] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:16:07] "GET /videos/main-flames-1.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 14:16:08] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:16:08] "GET /videos/main-flames-2.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 14:16:11] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:16:11] "GET /videos/main-flames-3.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 14:16:33] "GET /images/logo_updated.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:17:04] "GET /index.html HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:17:04] "GET /images/logo_updated.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:17:04] "GET /styles/main.css HTTP/1.1" 200 -
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('10.115.105.255', 58686)
+Exception occurred during processing of request from ('10.115.105.255', 58685)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+----------------------------------------
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+10.115.105.255 - - [02/Dec/2025 14:18:05] "GET /menu.html HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 14:18:05] "GET /styles/main.css HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 14:18:06] "GET /images/First_page_background.png HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 14:18:06] "GET /images/Main_Flames.png HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 14:18:06] "GET /images/Peri_Peri_Combos.png HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 14:18:06] "GET /images/Sides_menu_background.png HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 14:18:06] "GET /images/Drinks_menu_background.png HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 14:18:06] "GET /images/Flovour_station.png HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 14:18:06] "GET /index.html HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 14:18:07] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:18:07] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 14:18:07] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:18:07] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 14:18:07] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:18:07] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 14:18:07] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:18:07] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 14:18:07] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:18:07] "GET /favicon.ico HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 14:18:07] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:18:07] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 14:18:07] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:18:07] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 14:18:07] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:18:07] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 14:18:07] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:18:07] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 14:18:07] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:18:07] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('10.115.105.255', 58723)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+10.115.105.255 - - [02/Dec/2025 14:19:41] "GET /index.html HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 14:19:41] "GET /styles/main.css HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:19:41] "GET /images/logo_updated.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:19:41] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:19:41] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 14:19:41] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:19:41] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 14:19:41] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:19:41] "GET /favicon.ico HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 14:19:46] "GET /menu.html HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:19:59] "GET /styles/main.css HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:20:00] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:20:00] "GET /videos/main-flames-1.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 14:20:05] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:20:05] "GET /videos/main-flames-2.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 14:20:09] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 14:20:09] "GET /videos/main-flames-3.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 14:30:58] "GET /index.html HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:30:58] "GET /styles/main.css HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:30:58] "GET /images/logo_updated.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:30:58] "GET /images/First_page_background.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:31:20] "GET /menu.html HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:31:20] "GET /images/Peri_Peri_Combos.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:31:21] "GET /images/Flovour_station.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:31:21] "GET /images/Main_Flames.png HTTP/1.1" 304 -
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('10.115.105.255', 58919)
+Exception occurred during processing of request from ('10.115.105.255', 58920)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+----------------------------------------
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+10.115.105.255 - - [02/Dec/2025 14:54:00] "GET /bar.html HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 14:54:00] "GET /styles/main.css HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 14:54:00] "GET /scripts/menu.js HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 17:03:12] "GET /main-flames.html HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 17:03:12] "GET /scripts/menu.js HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 17:03:12] "GET /styles/main.css HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 17:03:14] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:03:14] "GET /videos/main-flames-1.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:03:15] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:03:15] "GET /videos/main-flames-2.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:03:16] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:03:16] "GET /videos/main-flames-3.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:03:55] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:03:55] "GET /videos/main-flames-2.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:03:56] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:03:56] "GET /videos/main-flames-1.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:03:56] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:03:56] "GET /videos/main-flames-2.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:06:01] "GET /index.html HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 17:06:01] "GET /images/logo_updated.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 17:06:01] "GET /images/First_page_background.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 17:06:01] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:06:01] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:06:01] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:06:01] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:06:01] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:06:01] "GET /favicon.ico HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:06:02] "GET /menu.html HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 17:06:02] "GET /images/Main_Flames.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 17:06:02] "GET /images/Sides_menu_background.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 17:06:02] "GET /images/Drinks_menu_background.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 17:06:02] "GET /images/Peri_Peri_Combos.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 17:06:02] "GET /images/Flovour_station.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 17:06:04] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:06:04] "GET /videos/main-flames-1.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:06:05] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:06:05] "GET /videos/main-flames-2.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:06:06] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:06:06] "GET /videos/main-flames-1.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:06:10] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:06:10] "GET /videos/main-flames-1.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:06:58] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:06:58] "GET /videos/main-flames-1.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:06:59] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:06:59] "GET /videos/main-flames-2.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:07:00] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:07:00] "GET /videos/main-flames-3.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:07:00] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:07:00] "GET /videos/main-flames-4.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:07:01] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:07:01] "GET /videos/main-flames-5.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:07:01] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:07:01] "GET /videos/main-flames-6.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:07:02] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:07:02] "GET /videos/main-flames-7.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:08:39] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:08:39] "GET /videos/main-flames-1.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:08:48] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:08:48] "GET /videos/main-flames-1.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:10:41] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:10:41] "GET /videos/main-flames-1.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:10:44] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:10:44] "GET /videos/main-flames-2.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:10:45] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:10:45] "GET /videos/main-flames-1.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:10:49] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:10:49] "GET /videos/main-flames-2.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:10:50] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:10:50] "GET /videos/main-flames-3.mp4 HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('10.115.105.255', 58955)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('10.115.105.255', 58973)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+10.115.105.255 - - [02/Dec/2025 17:18:01] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:18:01] "GET /videos/main-flames-1.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:18:02] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:18:02] "GET /videos/main-flames-2.mp4 HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 17:18:03] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 17:18:03] "GET /videos/main-flames-3.mp4 HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('10.115.105.255', 59039)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+10.115.142.138 - - [02/Dec/2025 17:21:43] "GET /test-video.html HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 17:21:43] "GET /images/1-4_peri_chicken_demo.mp4 HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 17:21:43] "GET /images/1-2_peri_chicken_demo.mp4 HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 17:21:53] "GET /images/hot_off_the_press_demo.mp4 HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 17:21:53] code 404, message File not found
+10.115.142.138 - - [02/Dec/2025 17:21:53] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('10.115.142.138', 64648)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 424, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 881, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('10.115.142.138', 64649)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 424, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 881, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+10.115.105.255 - - [02/Dec/2025 17:22:19] "GET /styles/main.css HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 17:22:20] "GET /main-flames.html HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('10.115.105.255', 59153)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+127.0.0.1 - - [02/Dec/2025 17:26:11] "HEAD /images/1-4_peri_chicken_demo.mp4 HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 17:26:52] "GET /images/1-4_peri_chicken_demo.mp4 HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('10.115.142.138', 65055)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 424, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 881, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+10.115.142.138 - - [02/Dec/2025 17:26:52] "GET /images/1-4_peri_chicken_demo.mp4 HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 17:28:08] "GET /index.html HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 17:28:08] "GET /images/logo_updated.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 17:28:09] "GET /menu.html HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 17:28:10] "GET /main-flames.html HTTP/1.1" 304 -
+----------------------------------------
+Exception occurred during processing of request from ('10.115.105.255', 59193)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('10.115.105.255', 59200)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+10.115.105.255 - - [02/Dec/2025 18:07:39] "GET /index.html HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 18:07:39] "GET /styles/main.css HTTP/1.1" 200 -
+10.115.105.255 - - [02/Dec/2025 18:07:39] "GET /images/First_page_background.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 18:07:39] "GET /images/logo_updated.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 18:07:39] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 18:07:39] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 18:07:39] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 18:07:39] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 18:07:39] code 404, message File not found
+10.115.105.255 - - [02/Dec/2025 18:07:39] "GET /favicon.ico HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 18:07:40] "GET /menu.html HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 18:07:40] "GET /images/Sides_menu_background.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 18:07:40] "GET /images/Peri_Peri_Combos.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 18:07:40] "GET /images/Drinks_menu_background.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 18:07:40] "GET /images/Main_Flames.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 18:07:40] "GET /images/Flovour_station.png HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 18:07:41] "GET /main-flames.html HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('10.115.105.255', 59516)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+10.115.142.138 - - [02/Dec/2025 18:10:58] "GET /test-video.html HTTP/1.1" 304 -
+10.115.142.138 - - [02/Dec/2025 18:10:58] "GET /images/1-4_peri_chicken_demo.mp4 HTTP/1.1" 304 -
+10.115.142.138 - - [02/Dec/2025 18:10:58] "GET /images/1-2_peri_chicken_demo.mp4 HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 18:11:03] code 404, message File not found
+10.115.142.138 - - [02/Dec/2025 18:11:03] "GET /favicon.ico HTTP/1.1" 404 -
+10.115.142.138 - - [02/Dec/2025 18:11:05] "GET /images/hot_off_the_press_demo.mp4 HTTP/1.1" 304 -
+----------------------------------------
+Exception occurred during processing of request from ('10.115.142.138', 49816)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 424, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 881, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+10.115.142.138 - - [02/Dec/2025 18:11:14] "GET /main-flames.html HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 18:11:14] "GET /scripts/menu.js HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 18:11:14] "GET /styles/main.css HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 18:11:16] "GET /images/1-2_peri_chicken_demo.mp4 HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 18:11:16] code 404, message File not found
+10.115.142.138 - - [02/Dec/2025 18:11:16] "GET /favicon.ico HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 18:11:37] "GET /main-flames.html HTTP/1.1" 304 -
+10.115.142.138 - - [02/Dec/2025 18:12:21] "GET /menu.html HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 18:12:21] "GET /images/First_page_background.png HTTP/1.1" 304 -
+10.115.142.138 - - [02/Dec/2025 18:12:21] "GET /images/Main_Flames.png HTTP/1.1" 304 -
+10.115.142.138 - - [02/Dec/2025 18:12:21] "GET /images/Sides_menu_background.png HTTP/1.1" 304 -
+10.115.142.138 - - [02/Dec/2025 18:12:21] "GET /images/Peri_Peri_Combos.png HTTP/1.1" 304 -
+10.115.142.138 - - [02/Dec/2025 18:12:21] "GET /images/Drinks_menu_background.png HTTP/1.1" 304 -
+10.115.142.138 - - [02/Dec/2025 18:12:21] "GET /images/Flovour_station.png HTTP/1.1" 304 -
+10.115.142.138 - - [02/Dec/2025 18:12:23] "GET /combos.html HTTP/1.1" 200 -
+10.115.142.138 - - [02/Dec/2025 18:12:23] "GET /scripts/menu.js HTTP/1.1" 304 -
+10.115.142.138 - - [02/Dec/2025 18:12:25] "GET /main-flames.html HTTP/1.1" 304 -
+10.115.142.138 - - [02/Dec/2025 18:12:28] code 404, message File not found
+10.115.142.138 - - [02/Dec/2025 18:12:28] "GET /favicon.ico HTTP/1.1" 404 -
+10.115.105.255 - - [02/Dec/2025 18:14:24] "GET /styles/main.css HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 18:14:27] "GET /main-flames.html HTTP/1.1" 304 -
+----------------------------------------
+Exception occurred during processing of request from ('10.115.105.255', 59599)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+10.115.105.255 - - [02/Dec/2025 18:19:13] "GET /styles/main.css HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 18:19:14] "GET /main-flames.html HTTP/1.1" 304 -
+10.115.105.255 - - [02/Dec/2025 18:20:31] "GET /main-flames.html HTTP/1.1" 304 -
+----------------------------------------
+Exception occurred during processing of request from ('10.115.105.255', 59656)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('10.115.105.255', 59657)
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/miniconda3/lib/python3.13/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/miniconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------

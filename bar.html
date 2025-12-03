@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From the Bar - Peri Peri Grill</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Truculenta:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body class="category-page-grid">
+    <header class="grid-header">
+        <a href="menu.html" class="back-btn-grid">←</a>
+        <h1 class="grid-title">FROM THE BAR</h1>
+        <div class="spacer"></div>
+    </header>
+
+    <main class="video-grid">
+        <div class="grid-item" data-dish-name="Red Stripe" data-price="$550" data-description="Jamaica's premium lager beer." data-video="videos/bar-1.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <div class="grid-item" data-dish-name="Corona" data-price="$600" data-description="Mexican lager beer with lime." data-video="videos/bar-2.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <div class="grid-item" data-dish-name="Modelo" data-price="$650" data-description="Authentic Mexican beer." data-video="videos/bar-3.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <div class="grid-item" data-dish-name="Heineken" data-price="$600" data-description="Premium Dutch lager." data-video="videos/bar-4.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <div class="grid-item" data-dish-name="High Noon" data-price="$950" data-description="Vodka soda hard seltzer." data-video="videos/bar-5.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <div class="grid-item" data-dish-name="Red Stripe Sorrel" data-price="$600" data-description="Red Stripe with sorrel flavor." data-video="videos/bar-6.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <div class="grid-item" data-dish-name="Legend Beer" data-price="$500" data-description="Jamaican craft lager." data-video="videos/bar-7.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <div class="grid-item" data-dish-name="Absolut Vodka" data-price="$2,800" data-description="Premium Swedish vodka bottle." data-video="videos/bar-8.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <div class="grid-item" data-dish-name="Appleton Rum" data-price="$2,000" data-description="Jamaican dark rum bottle." data-video="videos/bar-9.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <div class="grid-item" data-dish-name="Wray & Nephew White Rum" data-price="$2,000" data-description="Authentic Jamaican overproof rum bottle." data-video="videos/bar-10.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <div class="grid-item" data-dish-name="Prosecco" data-price="$2,000" data-description="Italian sparkling wine bottle." data-video="videos/bar-11.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+    </main>
+
+    <div id="videoModal" class="video-modal-fullscreen">
+        <div class="modal-video-container">
+            <button class="modal-close-fullscreen">&times;</button>
+            <video id="modalVideo" playsinline loop>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-info-overlay">
+                <h2 id="modalDishName"></h2>
+                <p id="modalPrice"></p>
+                <p id="modalDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/menu.js"></script>
+</body>
+</html>

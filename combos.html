@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peri Peri Combos - Peri Peri Grill</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Truculenta:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body class="category-page-grid">
+    <header class="grid-header">
+        <a href="menu.html" class="back-btn-grid">←</a>
+        <h1 class="grid-title">PERI PERI COMBOS</h1>
+        <div class="spacer"></div>
+    </header>
+
+    <main class="video-grid">
+        <!-- REPLACE: videos/combos-1.mp4 with your actual video file -->
+        <div class="grid-item" data-dish-name="1/4 Combo" data-price="$1,950" data-description="1/4 peri chicken with 1 side & a soda or water with sauce of choice." data-video="videos/combos-1.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <!-- REPLACE: videos/combos-2.mp4 with your actual video file -->
+        <div class="grid-item" data-dish-name="1/2 Combo" data-price="$3,450" data-description="1/2 peri chicken with 2 sides & a soda or water with sauce of choice." data-video="videos/combos-2.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+
+        <!-- REPLACE: videos/combos-3.mp4 with your actual video file -->
+        <div class="grid-item" data-dish-name="Slider Combo" data-price="$2,400" data-description="2 peri chicken sliders with 1 side and a small soda or water with sauce of choice." data-video="videos/combos-3.mp4">
+            <div class="grid-thumbnail"></div>
+        </div>
+    </main>
+
+    <div id="videoModal" class="video-modal-fullscreen">
+        <div class="modal-video-container">
+            <button class="modal-close-fullscreen">&times;</button>
+            <video id="modalVideo" playsinline loop>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-info-overlay">
+                <h2 id="modalDishName"></h2>
+                <p id="modalPrice"></p>
+                <p id="modalDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/menu.js"></script>
+</body>
+</html>
