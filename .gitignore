@@ -38,3 +38,10 @@ images/Drinks_menu_background.jpg
 # Video files (too large for git)
 *.mov
 *.MOV
+
+# Log files
+server.log
+tunnel.log
+
+# Test files
+test-qr.png

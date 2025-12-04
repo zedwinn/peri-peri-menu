@@ -20,7 +20,9 @@
       "Bash(sips:*)",
       "Bash(find:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git tag:*)",
+      "Bash(git show:*)"
     ],
     "deny": [],
     "ask": []

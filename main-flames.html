@@ -19,55 +19,66 @@
     <!-- Instagram/TikTok style grid -->
     <main class="video-grid">
         <div class="grid-item" data-dish-name="1/4 Peri Peri Chicken" data-price="$1,400" data-description="Flame grilled and full of flavour. Juicy on the inside, crispy on the outside." data-video="images/1-4_peri_chicken_demo.mp4">
-            <div class="grid-thumbnail"></div>
+            <video class="grid-thumbnail" src="images/1-4_peri_chicken_demo.mp4" poster="images/1-4_chicken_thumbnail.jpg" preload="none" muted playsinline></video>
+            <div class="dish-name-overlay"></div>
         </div>
 
         <div class="grid-item" data-dish-name="1/2 Peri Peri Chicken" data-price="$2,600" data-description="Double the heat. Double the flavour." data-video="images/1-2_peri_chicken_demo.mp4">
-            <div class="grid-thumbnail"></div>
+            <video class="grid-thumbnail" src="images/1-2_peri_chicken_demo.mp4" poster="images/1-2_chicken_thumbnail.jpg" preload="none" muted playsinline></video>
+            <div class="dish-name-overlay"></div>
         </div>
 
         <div class="grid-item" data-dish-name="Hot Off the Press" data-price="$1,600" data-description="Grilled cheese panini with peri peri chicken, pepper jelly & caramelized onions." data-video="images/hot_off_the_press_demo.mp4">
-            <div class="grid-thumbnail"></div>
+            <video class="grid-thumbnail" src="images/hot_off_the_press_demo.mp4" poster="images/hot_off_thepress_thumbnail.jpg" preload="none" muted playsinline></video>
+            <div class="dish-name-overlay"></div>
         </div>
 
         <!-- REPLACE: videos/main-flames-4.mp4 with your actual video file -->
         <div class="grid-item" data-dish-name="Peri Peri Chicken Wrap" data-price="$1,600" data-description="Grilled peri chicken in a wrap, melted cheese, crisp lettuce & house sauce." data-video="videos/main-flames-4.mp4">
-            <div class="grid-thumbnail"></div>
+            <video class="grid-thumbnail" src="videos/main-flames-4.mp4" preload="metadata" muted playsinline></video>
+            <div class="dish-name-overlay"></div>
         </div>
 
         <!-- REPLACE: videos/main-flames-5.mp4 with your actual video file -->
         <div class="grid-item" data-dish-name="Beanie Burger" data-price="$1,750" data-description="Veggie bean burger with lettuce, tomatoes, cheese & caramelized onions." data-video="videos/main-flames-5.mp4">
-            <div class="grid-thumbnail"></div>
+            <video class="grid-thumbnail" src="videos/main-flames-5.mp4" preload="metadata" muted playsinline></video>
+            <div class="dish-name-overlay"></div>
         </div>
 
         <!-- REPLACE: videos/main-flames-6.mp4 with your actual video file -->
         <div class="grid-item" data-dish-name="Loaded Peri Peri Fries" data-price="$1,700" data-description="Fries with peri chicken, cheese and spicy sauce drizzle." data-video="videos/main-flames-6.mp4">
-            <div class="grid-thumbnail"></div>
+            <video class="grid-thumbnail" src="videos/main-flames-6.mp4" preload="metadata" muted playsinline></video>
+            <div class="dish-name-overlay"></div>
         </div>
 
         <!-- REPLACE: videos/main-flames-7.mp4 with your actual video file -->
         <div class="grid-item" data-dish-name="Peri Peri Chicken Wings" data-price="$1,450" data-description="6 chicken wings with Calabrian chili sauce." data-video="videos/main-flames-7.mp4">
-            <div class="grid-thumbnail"></div>
+            <video class="grid-thumbnail" src="videos/main-flames-7.mp4" preload="metadata" muted playsinline></video>
+            <div class="dish-name-overlay"></div>
         </div>
 
         <!-- REPLACE: videos/main-flames-8.mp4 with your actual video file -->
         <div class="grid-item" data-dish-name="Peri Peri Chicken Salad" data-price="$1,800" data-description="Lettuce, chili dressing, breadcrumbs, parmesan, peri peri chicken. Option without chicken $1,100." data-video="videos/main-flames-8.mp4">
-            <div class="grid-thumbnail"></div>
+            <video class="grid-thumbnail" src="videos/main-flames-8.mp4" preload="metadata" muted playsinline></video>
+            <div class="dish-name-overlay"></div>
         </div>
 
         <!-- REPLACE: videos/main-flames-9.mp4 with your actual video file -->
         <div class="grid-item" data-dish-name="Peri Peri Rice Bowl" data-price="$2,400" data-description="Portuguese rice, boneless thigh, black beans, sautéed sweet pepper, mozzarella, grilled corn & choice of sauce." data-video="videos/main-flames-9.mp4">
-            <div class="grid-thumbnail"></div>
+            <video class="grid-thumbnail" src="videos/main-flames-9.mp4" preload="metadata" muted playsinline></video>
+            <div class="dish-name-overlay"></div>
         </div>
 
         <!-- REPLACE: videos/main-flames-10.mp4 with your actual video file -->
         <div class="grid-item" data-dish-name="Peri Peri Pulled Pork Sandwich" data-price="$1,900" data-description="Slow cooked pulled pork, peri peppers & caramelized onions on toasted burger buns." data-video="videos/main-flames-10.mp4">
-            <div class="grid-thumbnail"></div>
+            <video class="grid-thumbnail" src="videos/main-flames-10.mp4" preload="metadata" muted playsinline></video>
+            <div class="dish-name-overlay"></div>
         </div>
 
         <!-- REPLACE: videos/main-flames-11.mp4 with your actual video file -->
         <div class="grid-item" data-dish-name="Peri Peri Pulled Pork Loaded Nachos" data-price="$2,100" data-description="Tortilla chips, black beans, corn, peri peppers, melted cheese. With peri chicken $1,800, meatless $1,300." data-video="videos/main-flames-11.mp4">
-            <div class="grid-thumbnail"></div>
+            <video class="grid-thumbnail" src="videos/main-flames-11.mp4" preload="metadata" muted playsinline></video>
+            <div class="dish-name-overlay"></div>
         </div>
     </main>
 
@@ -75,7 +86,7 @@
     <div id="videoModal" class="video-modal-fullscreen">
         <div class="modal-video-container">
             <button class="modal-close-fullscreen">&times;</button>
-            <video id="modalVideo" playsinline loop controls muted>
+            <video id="modalVideo" class="modal-video" playsinline loop autoplay muted>
                 Your browser does not support the video tag.
             </video>
             <div class="video-info-overlay">

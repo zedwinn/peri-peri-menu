@@ -62,9 +62,9 @@
     }
 
     /**
-     * Load dish data into modal with smooth transition
+     * Load dish data into modal with quick fade transition
      * @param {number} index - Index of the grid item to display
-     * @param {string} direction - 'left' or 'right' for slide direction
+     * @param {string} direction - 'left' or 'right' for slide direction (not used in simple version)
      */
     function loadDish(index, direction = 'none') {
         if (index < 0 || index >= gridItems.length) return;
@@ -78,26 +78,35 @@
         const price = gridItem.getAttribute('data-price');
         const description = gridItem.getAttribute('data-description');
 
-        // Add slide transition
-        if (direction !== 'none' && videoModal) {
-            const modalContainer = videoModal.querySelector('.modal-video-container');
-            if (modalContainer) {
-                modalContainer.classList.add(`slide-${direction}`);
+        if (direction === 'none') {
+            // Initial load - no animation
+            if (modalVideo && videoSrc) {
+                modalVideo.src = videoSrc;
+                modalVideo.load();
+                modalVideo.play().catch(err => console.log('Autoplay prevented:', err));
+            }
+        } else {
+            // Quick fade transition
+            if (modalVideo && videoSrc) {
+                // Fade out quickly
+                modalVideo.style.opacity = '0';
+
+                // Wait for fade, then change video
                 setTimeout(() => {
-                    modalContainer.classList.remove(`slide-${direction}`);
-                }, 300);
+                    modalVideo.src = videoSrc;
+                    modalVideo.load();
+                    modalVideo.play().catch(err => console.log('Autoplay prevented:', err));
+
+                    // Fade back in
+                    modalVideo.style.opacity = '1';
+                }, 150); // Short 150ms fade
             }
         }
 
-        // Set dish information
+        // Update text info
         if (modalDishName) modalDishName.textContent = dishName;
         if (modalPrice) modalPrice.textContent = price;
         if (modalDescription) modalDescription.textContent = description;
-
-        // Simple video loading
-        if (modalVideo && videoSrc) {
-            modalVideo.src = videoSrc;
-        }
     }
 
     /**
@@ -123,7 +132,7 @@
      * @param {number} index - Index of the grid item clicked
      */
     function openVideoModal(index) {
-        if (!videoModal || !modalVideo) return;
+        if (!videoModal) return;
 
         currentIndex = index;
         loadDish(index, 'none');
@@ -144,11 +153,14 @@
      * Close fullscreen video modal
      */
     function closeVideoModal() {
-        if (!videoModal || !modalVideo) return;
+        if (!videoModal) return;
 
         // Pause and reset video
-        modalVideo.pause();
-        modalVideo.currentTime = 0;
+        if (modalVideo) {
+            modalVideo.pause();
+            modalVideo.currentTime = 0;
+            modalVideo.style.opacity = '1'; // Reset opacity
+        }
 
         // Hide the modal
         videoModal.classList.remove('active');
@@ -248,11 +260,58 @@
         });
     }
 
+    /**
+     * Set video thumbnails to show last frame
+     */
+    function setVideoThumbnails() {
+        const thumbnails = document.querySelectorAll('.grid-thumbnail');
+
+        thumbnails.forEach(video => {
+            // Skip if video has a poster attribute (custom thumbnail already set)
+            if (video.hasAttribute('poster')) return;
+
+            // Wait for metadata to load
+            video.addEventListener('loadedmetadata', function() {
+                // Seek to last frame (slightly before end to avoid black frame)
+                this.currentTime = Math.max(0, this.duration - 0.1);
+            });
+
+            // If metadata is already loaded
+            if (video.readyState >= 1) {
+                video.currentTime = Math.max(0, video.duration - 0.1);
+            }
+        });
+    }
+
+    /**
+     * Populate dish name overlays from data attributes
+     */
+    function populateDishNames() {
+        const gridItems = document.querySelectorAll('.grid-item');
+
+        gridItems.forEach(item => {
+            const dishName = item.getAttribute('data-dish-name');
+            const overlay = item.querySelector('.dish-name-overlay');
+
+            if (dishName && overlay) {
+                overlay.textContent = dishName;
+            }
+        });
+    }
+
     // Initialize when DOM is ready
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
+        document.addEventListener('DOMContentLoaded', function() {
+            init();
+            setVideoThumbnails();
+            // Delay for mobile browsers to ensure DOM is fully rendered
+            setTimeout(populateDishNames, 100);
+        });
     } else {
         init();
+        setVideoThumbnails();
+        // Delay for mobile browsers to ensure DOM is fully rendered
+        setTimeout(populateDishNames, 100);
     }
 
 })();

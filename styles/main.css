@@ -140,10 +140,12 @@ body {
     cursor: pointer;
 }
 
-.btn-primary:hover,
-.btn-primary:active {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+/* Only apply hover effects on devices with mice, not touch screens */
+@media (hover: hover) and (pointer: fine) {
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    }
 }
 
 /* ================================
@@ -178,9 +180,11 @@ body {
     transition: background-color 0.2s ease;
 }
 
-.back-link:hover,
-.back-link:active {
-    background-color: rgba(255, 255, 255, 0.1);
+/* Only apply hover effects on devices with mice, not touch screens */
+@media (hover: hover) and (pointer: fine) {
+    .back-link:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
 }
 
 .menu-title {
@@ -257,7 +261,14 @@ body {
     transition: background 0.3s ease;
 }
 
-.category-card-new:hover .category-overlay,
+/* Only apply hover effects on devices with mice, not touch screens */
+@media (hover: hover) and (pointer: fine) {
+    .category-card-new:hover .category-overlay {
+        background: rgba(0, 0, 0, 0.3);
+    }
+}
+
+/* Keep active state for touch feedback on mobile */
 .category-card-new:active .category-overlay {
     background: rgba(0, 0, 0, 0.3);
 }
@@ -342,21 +353,32 @@ body {
 .grid-thumbnail {
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    object-fit: cover;
+    object-position: center;
+    display: block;
     transition: opacity 0.2s ease;
+    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
 }
 
 .grid-item:active .grid-thumbnail {
     opacity: 0.8;
 }
 
-.grid-thumbnail::after {
-    content: '▶';
-    font-size: 1.5rem;
-    color: rgba(255, 255, 255, 0.7);
+.dish-name-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+    font-family: 'Truculenta', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #E84A28;
+    pointer-events: none;
+    z-index: 2;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    line-height: 1.3;
 }
 
 /* ================================
@@ -407,25 +429,52 @@ body {
     line-height: 1;
 }
 
-.modal-close-fullscreen:hover,
+/* Only apply hover effects on devices with mice, not touch screens */
+@media (hover: hover) and (pointer: fine) {
+    .modal-close-fullscreen:hover {
+        background: rgba(0, 0, 0, 0.8);
+    }
+}
+
+/* Keep active state for touch feedback on mobile */
 .modal-close-fullscreen:active {
     background: rgba(0, 0, 0, 0.8);
 }
 
-.modal-video-container video {
+.modal-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 100%;
-    height: 75vh;
-    max-height: 75vh;
-    object-fit: contain;
-    background: #000;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.2s ease-in-out;
+}
+
+/* Hide all video controls */
+.modal-video-container video::-webkit-media-controls {
+    display: none !important;
+}
+
+.modal-video-container video::-webkit-media-controls-enclosure {
+    display: none !important;
+}
+
+.modal-video-container video::-webkit-media-controls-panel {
+    display: none !important;
 }
 
 .video-info-overlay {
-    flex: 1;
-    padding: var(--spacing-md);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: var(--spacing-lg);
     color: var(--text-light);
-    background: #000;
-    overflow-y: auto;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    z-index: 2;
+    pointer-events: none;
 }
 
 .video-info-overlay h2 {
@@ -513,7 +562,7 @@ body {
     border: 0;
 }
 
-/* Prevent text selection on buttons/cards */
+/* Eliminate tap delay on all interactive elements */
 .btn-primary,
 .category-card-new,
 .category-card,
@@ -522,6 +571,13 @@ body {
 .back-btn-grid,
 .back-btn {
     -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    cursor: pointer;  /* Required for iOS Safari immediate tap recognition */
+}
+
+/* Prevent text selection on non-link elements only (divs, buttons) */
+.grid-item,
+.category-card-new {
     user-select: none;
 }
 
@@ -559,8 +615,11 @@ body {
     justify-self: start;
 }
 
-.back-btn:hover {
-    background-color: rgba(232, 74, 40, 0.1);
+/* Only apply hover effects on devices with mice, not touch screens */
+@media (hover: hover) and (pointer: fine) {
+    .back-btn:hover {
+        background-color: rgba(232, 74, 40, 0.1);
+    }
 }
 
 .page-header h1 {
@@ -591,10 +650,12 @@ body {
     min-height: 110px;
 }
 
-.category-card:hover,
-.category-card:active {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 16px var(--shadow-hover);
+/* Only apply hover effects on devices with mice, not touch screens */
+@media (hover: hover) and (pointer: fine) {
+    .category-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 4px 16px var(--shadow-hover);
+    }
 }
 
 /* Plain cards (no image) */
@@ -736,21 +797,25 @@ body {
    ================================ */
 
 .modal-video-container {
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 0.15s ease-in-out;
+}
+
+.modal-video-container.transitioning {
+    opacity: 0;
 }
 
 .modal-video-container.slide-left {
-    animation: slideFromRight 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: slideFromRight 0.35s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .modal-video-container.slide-right {
-    animation: slideFromLeft 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: slideFromLeft 0.35s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 @keyframes slideFromRight {
     0% {
-        transform: translateX(100%);
-        opacity: 0.5;
+        transform: translateX(30%);
+        opacity: 0;
     }
     100% {
         transform: translateX(0);
@@ -760,8 +825,8 @@ body {
 
 @keyframes slideFromLeft {
     0% {
-        transform: translateX(-100%);
-        opacity: 0.5;
+        transform: translateX(-30%);
+        opacity: 0;
     }
     100% {
         transform: translateX(0);
@@ -790,17 +855,21 @@ body {
     transition: transform 0.3s ease;
 }
 
-.category-card:hover::before,
-.category-card:active::before {
-    transform: scaleY(1);
+/* Only apply hover effects on devices with mice, not touch screens */
+@media (hover: hover) and (pointer: fine) {
+    .category-card:hover::before {
+        transform: scaleY(1);
+    }
 }
 
 .category-icon {
     transition: all 0.3s ease;
 }
 
-.category-card:hover .category-icon,
-.category-card:active .category-icon {
-    transform: scale(1.1);
-    color: var(--primary-dark);
+/* Only apply hover effects on devices with mice, not touch screens */
+@media (hover: hover) and (pointer: fine) {
+    .category-card:hover .category-icon {
+        transform: scale(1.1);
+        color: var(--primary-dark);
+    }
 }
