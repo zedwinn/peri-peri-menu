@@ -5,7 +5,7 @@ Generate a high-quality QR code for Peri Peri Grill menu
 import qrcode
 
 # Configuration
-url = "https://zedwinn.github.io/peri-peri-menu/"
+url = "http://10.111.142.219:8000/"
 output_file = "qr-code-hq.png"
 
 # Create QR code with high error correction

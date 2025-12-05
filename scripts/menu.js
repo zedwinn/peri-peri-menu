@@ -13,6 +13,7 @@
     const modalDishName = document.getElementById('modalDishName');
     const modalPrice = document.getElementById('modalPrice');
     const modalDescription = document.getElementById('modalDescription');
+    const modalCategoryName = document.getElementById('modalCategoryName');
 
     // Get all grid items
     const gridItems = Array.from(document.querySelectorAll('.grid-item'));
@@ -77,6 +78,7 @@
         const dishName = gridItem.getAttribute('data-dish-name');
         const price = gridItem.getAttribute('data-price');
         const description = gridItem.getAttribute('data-description');
+        const category = gridItem.getAttribute('data-category');
 
         if (direction === 'none') {
             // Initial load - no animation
@@ -107,6 +109,11 @@
         if (modalDishName) modalDishName.textContent = dishName;
         if (modalPrice) modalPrice.textContent = price;
         if (modalDescription) modalDescription.textContent = description;
+
+        // Update category name badge
+        if (modalCategoryName && category) {
+            modalCategoryName.textContent = category;
+        }
     }
 
     /**
@@ -203,6 +210,26 @@
                 // Swipe left - next dish
                 nextDish();
             }
+        }
+    }
+
+    /**
+     * Check for deep link hash and scroll to specific category section
+     */
+    function checkDeepLink() {
+        const hash = window.location.hash.substring(1); // Remove the '#'
+        if (!hash) return;
+
+        // Find the category section by ID
+        const categorySection = document.getElementById(hash);
+        if (categorySection) {
+            // Scroll to the category section after a short delay
+            setTimeout(() => {
+                categorySection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }, 100);
         }
     }
 
@@ -306,12 +333,16 @@
             setVideoThumbnails();
             // Delay for mobile browsers to ensure DOM is fully rendered
             setTimeout(populateDishNames, 100);
+            // Check for deep link after initialization
+            checkDeepLink();
         });
     } else {
         init();
         setVideoThumbnails();
         // Delay for mobile browsers to ensure DOM is fully rendered
         setTimeout(populateDishNames, 100);
+        // Check for deep link after initialization
+        checkDeepLink();
     }
 
 })();
